@@ -1,0 +1,22 @@
+Install git on your local machine: https://git-scm.com/downloads
+sudo apt-get install git
+
+Configure your user name and email address:
+git config --global user.name “shilpa vairagi”
+git config --global user.email “sv@gmail.com”
+
+Create your first git repository:
+git init Project1
+cd Project1  - Create file1.txt and save.
+git add file1.txt
+git commit -m “My first commit”
+
+Create a new branch and move to that branch:
+Git checkout -b mybranch
+
+Remote repository:
+git remote add origin https://github.com/shilpamk/Temporary.git
+git push -u origin master
+
+
+
